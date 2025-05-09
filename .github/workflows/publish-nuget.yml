@@ -20,13 +20,13 @@ jobs:
         include-prerelease: true
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore src/Pikot.DDD/Pikot.DDD/Pikot.DDD.csproj
 
     - name: Build project
-      run: dotnet build --configuration Release
+      run: dotnet build src/Pikot.DDD/Pikot.DDD/Pikot.DDD.csproj --configuration Release
 
     - name: Pack project
-      run: dotnet pack --configuration Release --output ./output
+      run: dotnet pack src/Pikot.DDD/Pikot.DDD/Pikot.DDD.csproj --configuration Release --output ./output
 
     - name: Publish to NuGet
       env:

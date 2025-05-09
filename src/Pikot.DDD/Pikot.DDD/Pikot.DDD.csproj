@@ -4,6 +4,14 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <PackageId>Pikot.DDD.Essentials</PackageId>
+        <Version>1.10.*</Version>
+        <Title>Domain Driven Design Essentials package</Title>
+        <Authors>Aleksandar Andonovski</Authors>
+        <Description>Domain Driven Design essentials pack for .NET. Covers basics like Aggregates and Entities. Tend to always follow the latest .NET version.</Description>
+        <Copyright>Pikot</Copyright>
+        <RepositoryUrl>https://github.com/nesbo/ddd-essentials</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>

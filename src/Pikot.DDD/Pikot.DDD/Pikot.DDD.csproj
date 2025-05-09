@@ -5,7 +5,8 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>Pikot.DDD.Essentials</PackageId>
-        <Version>1.10.*</Version>
+        <VersionPrefix>1.10</VersionPrefix>
+        <VersionSuffix>$([System.DateTime]::UtcNow.ToString(`yyyyMMdd-HHmm`))</VersionSuffix>
         <Title>Domain Driven Design Essentials package</Title>
         <Authors>Aleksandar Andonovski</Authors>
         <Description>Domain Driven Design essentials pack for .NET. Covers basics like Aggregates and Entities. Tend to always follow the latest .NET version.</Description>

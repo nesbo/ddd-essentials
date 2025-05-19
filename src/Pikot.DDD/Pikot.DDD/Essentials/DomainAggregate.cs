@@ -4,8 +4,8 @@ namespace Pikot.DDD.Essentials;
 /// <summary>
 /// Generic domain aggregate
 /// </summary>
-/// <typeparam name="TKey">Aggregate unique key, value type required</typeparam>
-public abstract class DomainAggregate<TKey> where TKey : struct, IEquatable<TKey>
+/// <typeparam name="TKey">Aggregate unique key</typeparam>
+public abstract class DomainAggregate<TKey>
 {
     /// <summary>
     /// Helper for some ORMs that need the parameterless constructor.
@@ -47,7 +47,6 @@ public abstract class DomainAggregate : DomainAggregate<int>;
 /// </summary>
 /// <typeparam name="TKey">Aggregate unique key, value type required</typeparam>
 public abstract class DomainAggregateVersioned<TKey> : DomainAggregate<TKey>
-    where TKey : struct, IEquatable<TKey>
 {
     /// <summary>
     /// Current aggregate version

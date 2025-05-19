@@ -1,4 +1,4 @@
-namespace Pikot.DDD;
+namespace Pikot.DDD.Ports;
 
 /// <summary>
 /// Current date and time provider

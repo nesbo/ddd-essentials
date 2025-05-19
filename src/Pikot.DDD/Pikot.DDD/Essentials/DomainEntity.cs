@@ -4,8 +4,8 @@ namespace Pikot.DDD.Essentials;
 /// <summary>
 /// Generic domain entity
 /// </summary>
-/// <typeparam name="TKey">Entity unique key, value type required</typeparam>
-public abstract class DomainEntity<TKey> where TKey : struct, IEquatable<TKey>
+/// <typeparam name="TKey">Entity unique key</typeparam>
+public abstract class DomainEntity<TKey>
 {
     /// <summary>
     /// Helper for some ORMs that need the parameterless constructor

@@ -1,4 +1,4 @@
-namespace Pikot.DDD;
+namespace Pikot.DDD.Ports;
 
 /// <summary>
 /// Default implementation of the CURRENT date time provider.
